@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MindBridge",
+    "slug": "mindbridge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#534AB7"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mindbridge.app",
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#534AB7"
+      },
+      "package": "com.mindbridge.app"
+    },
+    "scheme": "mindbridge",
+    "plugins": [
+      "expo-router",
+      "expo-apple-authentication",
+      "expo-secure-store"
+    ]
+  }
+}

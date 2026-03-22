@@ -1,0 +1,37 @@
+# Environment files — credentials, NEVER commit
+.env
+.env.local
+.env.production
+.env.development
+**/.env
+**/.env.local
+**/.env.production
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+.expo/
+web-build/
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Expo
+.expo-shared/

@@ -1,0 +1,17 @@
+import { useEffect, useState } from 'react'
+import { Stack } from 'expo-router'
+import { StatusBar } from 'expo-status-bar'
+import { supabase } from '../src/lib/supabase'
+import '../src/i18n'
+
+export default function RootLayout() {
+  return (
+    <>
+      <StatusBar style="dark" />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="(auth)" />
+        <Stack.Screen name="(tabs)" />
+      </Stack>
+    </>
+  )
+}
